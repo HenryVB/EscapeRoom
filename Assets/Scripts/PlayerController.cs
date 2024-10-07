@@ -5,11 +5,11 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField]
-    private float moveForce = 10f;
+    private float moveForce;
     [SerializeField]
-    private float turnSpeed = 50f;
+    private float turnSpeed;
     [SerializeField]
-    private float jumpForce = 5f;
+    private float jumpForce;
     private Rigidbody rb;
     private float moveHorizontal;
     private float moveVertical;

@@ -96,8 +96,10 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 1c004887775d85c4ca7f98efe0942884,
+    type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 3e8dff74125468b4586a98e7075599c1,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -184,11 +186,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Level6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7117526314092000750, guid: 7fcba7b3af623f348832d79d5bbc96b7,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -645,6 +642,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b67062f32787723479b1bfca661ac98e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  moveForce: 10
+  turnSpeed: 50
+  jumpForce: 5
 --- !u!1001 &825829112
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -657,11 +657,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Level3-2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3712375305195238566, guid: dd66c703f6ed3e944aaf25b84035e435,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4194711775880635926, guid: dd66c703f6ed3e944aaf25b84035e435,
         type: 3}
@@ -846,11 +841,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Level2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367407213436717365, guid: f7a3914ed3411e54b9f9d8c6aaf9bd43,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1042,11 +1032,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level3-1
       objectReference: {fileID: 0}
-    - target: {fileID: 3309200871549330803, guid: 11c123897f18e73498ec4db6acf7f4f5,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6806369594287797675, guid: 11c123897f18e73498ec4db6acf7f4f5,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1164,11 +1149,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Level4
-      objectReference: {fileID: 0}
-    - target: {fileID: 6831539891476155239, guid: 50f80ee969c2afd4b97ec4eb0f89d6d8,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1553,11 +1533,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level5
       objectReference: {fileID: 0}
-    - target: {fileID: 2867299662495491114, guid: 883eba19c805197498de4024695e769f,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3449387274599835394, guid: 883eba19c805197498de4024695e769f,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1625,11 +1600,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Level1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2063555567969894755, guid: d85095f3c727dba478f6a90fafeefad0,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3632445224906718169, guid: d85095f3c727dba478f6a90fafeefad0,
         type: 3}
